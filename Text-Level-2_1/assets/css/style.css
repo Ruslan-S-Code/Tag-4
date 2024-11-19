@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(/assets/fonts/Tahoma);
+}
+@font-face {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    src:url(/assets/fonts/Lucida)
+}
+
+h1 {
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px black;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+p:nth-of-type(1) {
+    text-indent: 10px;
+    word-spacing: 15px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p:nth-of-type(2){
+    word-spacing: 15px;
+    text-indent: 10px;
+}
+h2 {
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 5px;
+}
+
+p:nth-last-of-type(3), p:nth-of-type(4){
+    background-color: grey;
+    line-height: 1,8;
+    padding: 15px;
+}

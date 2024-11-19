@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Imbue";
+    src: url("/assets/fonts/Imbue/Imbue_14pt-Medium.ttf");
+}
+@font-face {
+    font-family: "Eater Regular";
+    src:url(/assets/fonts/Eater/Eater-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Kavivanar";
+    src:url(/assets/fonts/Kavivanar/Kavivanar-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Silkscreen-Bold";
+    src:url(/assets/fonts/Silkscreen/Silkscreen-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Gabriela-Regular";
+    src:url(/assets/fonts/Gabriela/Gabriela-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Bangers-Regular";
+    src:url(/assets/fonts/Bangers/Bangers-Regular.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Imbue";
+    font-size: 50px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+p:nth-of-type(1) {
+    text-align: center;
+    font-family: "Eater Regular";
+    font-size: 20px;
+    color: aquamarine;
+    text-shadow: 5px 5px 5px black;
+    background-color: beige;
+}
+
+p:nth-of-type(2) {
+    text-align: center;
+    font-family: "Kavivanar";
+    font-size: 15px;
+    color: orange;
+}
+
+p:nth-of-type(3) {
+    background-color: aqua;
+    text-align: center;
+    font-family: "Silkscreen-Bold";
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    height: 150px; 
+    
+}
+
+p:nth-of-type(4) {
+    text-align: center;
+    font-family: "Gabriela-Regular";
+    font-size: 20px;
+    color: blue;
+}
+
+p:nth-of-type(5) {
+    background-color: blue;
+    text-align: center;
+    font-family: "Bangers-Regular";
+    font-size: 25px;
+    color: rgb(97, 97, 97);
+    border-radius: 15px;
+}
